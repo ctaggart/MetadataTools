@@ -65,6 +65,7 @@ namespace PEFile
         {
             Console.WriteLine(filePath);
             Console.WriteLine(ImageReader.ReadAssemblyMvid(filePath));
+            Console.WriteLine(FileUtilities.GetAssemblyVersion(filePath));
         }
     }
 }
